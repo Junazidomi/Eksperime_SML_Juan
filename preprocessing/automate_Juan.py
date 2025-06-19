@@ -1,9 +1,10 @@
 import pandas as pd
 import numpy as np
 
-INPUT_PATH = "../raw-dataset/DiamondsPrices.csv"
+INPUT_PATH = 'raw-dataset\DiamondsPrices.csv'
 OUTPUT_PATH = "data_clean.csv"
 
+'raw-dataset\DiamondsPrices.csv'
 def load_data(path):
     df = pd.read_csv(path)
     return df
