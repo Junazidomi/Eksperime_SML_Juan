@@ -25,8 +25,8 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run prepocessing
-        working-directory: preprocessing
-        run: python automate_Juan.py
+      working-directory: preprocessing
+      run: python automate_Juan.py
               
     - name: Commit and push processed data
       run: |
